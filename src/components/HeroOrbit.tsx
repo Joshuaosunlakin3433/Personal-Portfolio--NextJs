@@ -4,19 +4,25 @@ export const HeroOrbit = ({
   children,
   size,
   rotation,
-}: PropsWithChildren<{ size: number; rotation:number }>) => {
+  outline,
+  outlineColor,
+  outlineWidth,
+}: PropsWithChildren<{ size: number; rotation:number; outline?: string; outlineColor?: string; outlineWidth?: number }>) => {
   return (
     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-      <div
-        className=""
+      <div 
+        className="flex justify-start items-start"
         
         style={{
             height: `${size}px`,
              width: `${size}px`, 
              transform: `rotate(${rotation}deg)`,
+             outline: `${outline}`,
+             outlineColor: `${outlineColor}`,
+             outlineWidth: `${outlineWidth}`,
             }}
       >
-        <div className="inline-flex "style={{transform: `rotate(${rotation * -1}deg)`}}>{children}</div>
+        <div className="inline-flex" style={{transform: `rotate(${rotation * -1}deg)`}}>{children}</div>
       </div>
     </div>
   );

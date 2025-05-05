@@ -9,6 +9,7 @@ import SparkleIcon from "@/assets/icons/sparkle.svg";
 export const HeroSection = () => {
   return (
     <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
+      <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
       <div
         className="absolute inset-0 -z-30 opacity-5"
         style={{
@@ -34,6 +35,7 @@ export const HeroSection = () => {
         <SparkleIcon className="size-8 text-emerald-300/20" />
       </HeroOrbit>
 
+{/* Sparkles */}
       <HeroOrbit size={430} rotation={-14}>
         <SparkleIcon className="size-8 text-emerald-300/20" />
       </HeroOrbit>
@@ -41,7 +43,28 @@ export const HeroSection = () => {
       <HeroOrbit size={440} rotation = {79}>
         <SparkleIcon className="size-5 text-emerald-300/20" />
       </HeroOrbit>
-      
+
+      <HeroOrbit size={530} rotation = {180}>
+        <SparkleIcon className="size-10 text-emerald-300/20" />
+      </HeroOrbit>
+
+      <HeroOrbit size={710} rotation = {150}>
+        <SparkleIcon className="size-10 text-emerald-300/20" />
+      </HeroOrbit>
+
+{/* circles */}
+      <HeroOrbit size={720} rotation = {85}>
+        <div className="size-3 rounded-full bg-emerald-900/20"></div>
+      </HeroOrbit> 
+
+      <HeroOrbit size={520} rotation = {-45} outline = "solid" outlineColor="red" outlineWidth={1}>
+        <div className="size-2 rounded-full bg-emerald-300/20 outline outline-1 outline-red-400"></div>
+      </HeroOrbit>
+
+      <HeroOrbit size={650} rotation = {-5}>
+        <div className="size-2 rounded-full bg-emerald-300/20"/>
+      </HeroOrbit>
+      </div>
       <div className="container">
         <div className="flex flex-col items-center">
           <Image
@@ -62,7 +85,7 @@ export const HeroSection = () => {
           </h1>
           <p className="text-center mt-4 text-white/50 md:text-lg">
             I specialize in transforming designs into functional,
-            high-perforning web applications. Let's discuss your discuss your
+            high-perforning web applications. Let&apos;s discuss your discuss your
             next project
           </p>
         </div>
@@ -73,7 +96,7 @@ export const HeroSection = () => {
           </button>
           <div className="inline-flex gap-2 items-center border border-white bg-white h-12 px-6 rounded-xl text-gray-900">
             <div className="text-xl animate-pulse">👋 </div>
-            <span className=" font-semibold capitalize">Let's connect</span>
+            <span className=" font-semibold capitalize">Let&apos;s connect</span>
           </div>
         </div>
       </div>

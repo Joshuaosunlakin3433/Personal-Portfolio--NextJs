@@ -57,8 +57,8 @@ export const HeroSection = () => {
         <div className="size-3 rounded-full bg-emerald-900/20"></div>
       </HeroOrbit> 
 
-      <HeroOrbit size={520} rotation = {-45} outline = "solid" outlineColor="red" outlineWidth={1}>
-        <div className="size-2 rounded-full bg-emerald-300/20 outline outline-1 outline-red-400"></div>
+      <HeroOrbit size={520} rotation = {-45}>
+        <div className="size-2 rounded-full bg-emerald-300/20"></div>
       </HeroOrbit>
 
       <HeroOrbit size={650} rotation = {-5}>

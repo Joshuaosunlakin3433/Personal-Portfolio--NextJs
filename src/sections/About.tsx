@@ -18,51 +18,52 @@ import TechIcon from "@/components/TechIcon";
 import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
+import ToolBoxItems from "@/components/ToolBoxItems";
 
 const toolboxItems = [
   {
     title: "JavaScript",
-    icon: JavascriptIcon,
+    iconType: JavascriptIcon,
   },
   {
     title: "TypeScript",
-    icon: SiTypescript,
+    iconType: SiTypescript,
   },
   {
     title: "HTML5",
-    icon: HTMLIcon,
+    iconType: HTMLIcon,
   },
   {
     title: "TailwindCSS",
-    icon: RiTailwindCssFill,
+    iconType: RiTailwindCssFill,
   },
   {
     title: "CSS3",
-    icon: CSS3,
+    iconType: CSS3,
   },
   {
     title: "MongoDB",
-    icon: SiMongodb,
+    iconType: SiMongodb,
   },
   {
     title: "ReactJs",
-    icon: ReactIcon,
+    iconType: ReactIcon,
   },
   {
     title: "NodeJS",
-    icon: RiNodejsLine,
+    iconType: RiNodejsLine,
   },
   {
     title: "ExpressJS",
-    icon: SiExpress,
+    iconType: SiExpress,
   },
   {
     title: "Postman",
-    icon: SiPostman,
+    iconType: SiPostman,
   },
   {
     title: "Chrome",
-    icon: ChromeIcon,
+    iconType: ChromeIcon,
   },
 ];
 
@@ -118,20 +119,14 @@ export const AboutSection = () => {
               className="w-40 mx-auto mt-8"
             />
           </Card>
-          <Card>
+          <Card className="h-[320px] p-0">
             <CardHeader
               title="My Toolbox"
               description="Explore the technologies and tools I use to craft digital
                 experiences"
             />
-            <div>
-              {toolboxItems.map((toolbox) => (
-                <div key={toolbox.title} className="inline-flex items-center gap-4 py-2 px-3 outline outline-white/10">
-                  <TechIcon component={toolbox.icon} />
-                  <span className="w-4 font-semibold">{toolbox.title}</span>
-                </div>
-              ))}
-            </div>
+            <ToolBoxItems items={toolboxItems}/> 
+            
           </Card>
           <Card>
             <div>

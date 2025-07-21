@@ -23,14 +23,14 @@ const portfolioProjects = [
   },
   {
     company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    year: "2025",
+    title: "Eco- Saas Landing Page",
     results: [
       { title: "Boosted sales by 20%" },
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
+    link: "https://eco-ochre-nu.vercel.app/",
     image: lightSaasLandingPage,
   },
   {
@@ -58,10 +58,13 @@ export const ProjectsSection = () => {
         />
 
         <div className="flex flex-col items-center mt-10 md:mt-20 gap-20">
-          {portfolioProjects.map((project) => (
+          {portfolioProjects.map((project, projectIndex) => (
             <Card
               key={project.title}
-              className="px-8 pb-0 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20"
+              className="px-8 pb-0 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky"
+              style = {{
+                top:`calc(64px + ${projectIndex *40}px`
+              }}
             >
               
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">

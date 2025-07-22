@@ -1,25 +1,13 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
+import ipAddressProject from "@/assets/images/Ip Address Project.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import weatherAppProject from "@/assets/images/weatherAppProject.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import SectionHeader from "@/components/SectionHeader";
-import {Card} from "@/components/Cards"
+import { Card } from "@/components/Cards";
 
 const portfolioProjects = [
-  {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
-    results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
-    ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
-  },
   {
     company: "Innovative Co",
     year: "2025",
@@ -33,16 +21,28 @@ const portfolioProjects = [
     image: lightSaasLandingPage,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Weather App",
+    year: "2025",
+    title: " Real-Time Weather App",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://weather-app-nu-three-34.vercel.app/",
+    image: weatherAppProject,
+  },
+  {
+    company: "IP Address Tracker",
+    year: "2025",
+    title: "IP Address Location Tracker",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://ip-address-tracker-6byz.vercel.app/",
+    image: ipAddressProject,
   },
 ];
 
@@ -61,11 +61,10 @@ export const ProjectsSection = () => {
             <Card
               key={project.title}
               className="px-8 pb-0 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky"
-              style = {{
-                top:`calc(64px + ${projectIndex *40}px`
+              style={{
+                top: `calc(64px + ${projectIndex * 40}px`,
               }}
             >
-              
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
                   <div
@@ -93,7 +92,11 @@ export const ProjectsSection = () => {
                       </li>
                     ))}
                   </ul>
-                  <a href={project.link}>
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button className="bg-white text-gray-950 font-bold inline-flex items-center justify-center gap-2 h-12 w-full md:w-auto md:px-6 rounded-xl cursor-pointer">
                       <span>Visit Live Site</span>
                       <ArrowUpRightIcon className="size-4" />

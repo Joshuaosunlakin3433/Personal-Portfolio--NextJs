@@ -14,7 +14,7 @@ import { SiMongodb } from "react-icons/si";
 import { RiNodejsLine } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
-import mapImage from "@/assets/images/portfolio_map.png";
+import mapImage from "@/assets/images/map_portfolio_main.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
 import ToolBoxItems from "@/components/ToolBoxItems";

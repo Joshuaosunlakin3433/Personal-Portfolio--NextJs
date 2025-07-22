@@ -8,7 +8,7 @@ const footerLinks = [
   },
    {
     title: "Resume",
-    href: "/OSUNLAKIN-JOSHUA-RESUME.pdf",
+    href: "/JOSHUA-OSUNLAKIN-RESUME.pdf",
   },
   {
     title: "LinkedIn",

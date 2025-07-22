@@ -32,7 +32,7 @@ export const HeroSection = () => {
           shouldSpin
           spinDuration="3s"
         >
-          <SparkleIcon className="size-8 text-emerald-300/20" />
+          <SparkleIcon className="size-8 text-teal-300/20" />
         </HeroOrbit>
         <HeroOrbit
           size={440}
@@ -42,10 +42,10 @@ export const HeroSection = () => {
           shouldSpin
           spinDuration="3s"
         >
-          <SparkleIcon className="size-5 text-emerald-300/20" />
+          <SparkleIcon className="size-5 text-teal-300/20" />
         </HeroOrbit>
         <HeroOrbit size={520} rotation={-45} shouldOrbit orbitDuration="34s">
-          <div className="size-2 rounded-full bg-emerald-300/20" />
+          <div className="size-2 rounded-full bg-teal-300/20" />
         </HeroOrbit>
         <HeroOrbit
           size={530}
@@ -55,7 +55,7 @@ export const HeroSection = () => {
           shouldSpin
           spinDuration="3s"
         >
-          <SparkleIcon className="size-10 text-emerald-300/20" />
+          <SparkleIcon className="size-10 text-teal-300/20" />
         </HeroOrbit>
         <HeroOrbit
           size={550}
@@ -65,7 +65,7 @@ export const HeroSection = () => {
           shouldSpin
           spinDuration="6s"
         >
-          <StarIcon className="size-12 text-emerald-300" />
+          <StarIcon className="size-12 text-teal-300" />
         </HeroOrbit>
         <HeroOrbit
           size={590}
@@ -75,10 +75,10 @@ export const HeroSection = () => {
           shouldSpin
           spinDuration="6s"
         >
-          <StarIcon className="size-8 text-emerald-300" />
+          <StarIcon className="size-8 text-teal-300" />
         </HeroOrbit>
         <HeroOrbit size={650} rotation={-5} shouldOrbit orbitDuration="42s">
-          <div className="size-2 rounded-full bg-emerald-300/20" />
+          <div className="size-2 rounded-full bg-teal-300/20" />
         </HeroOrbit>
         <HeroOrbit
           size={710}
@@ -88,10 +88,10 @@ export const HeroSection = () => {
           shouldSpin
           spinDuration="3s"
         >
-          <SparkleIcon className="size-10 text-emerald-300/20" />
+          <SparkleIcon className="size-10 text-teal-300/20" />
         </HeroOrbit>
         <HeroOrbit size={720} rotation={85} shouldOrbit orbitDuration="46s">
-          <div className="size-3 rounded-full bg-emerald-900/20"></div>
+          <div className="size-3 rounded-full bg-teal-900/20"></div>
         </HeroOrbit>
         <HeroOrbit
           size={800}
@@ -101,7 +101,7 @@ export const HeroSection = () => {
           shouldSpin
           spinDuration="10s"
         >
-          <StarIcon className="size-28 text-emerald-300" spin />
+          <StarIcon className="size-28 text-teal-300" spin />
         </HeroOrbit>
 
         {/* Sparkles */}

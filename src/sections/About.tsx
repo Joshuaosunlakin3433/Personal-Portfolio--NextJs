@@ -14,7 +14,7 @@ import { SiMongodb } from "react-icons/si";
 import { RiNodejsLine } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
-import mapImage from "@/assets/images/map.png";
+import mapImage from "@/assets/images/portfolio_map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
 import ToolBoxItems from "@/components/ToolBoxItems";
@@ -183,7 +183,7 @@ export const AboutSection = () => {
                 {hobbies.map((hobby) => (
                   <motion.div
                     key={hobby.title}
-                    className="inline-flex gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 items-center absolute"
+                    className="inline-flex gap-2 px-6 bg-gradient-to-r from-teal-300 to-cyan-400 rounded-full py-1.5 items-center absolute"
                     style={{
                       left: hobby.left,
                       top: hobby.top,
@@ -204,9 +204,9 @@ export const AboutSection = () => {
                 alt="map"
                 className="h-full w-full object-cover object-left-top"
               />
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30">
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-20 animate-ping [animation-duration:2s]"></div>
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-10"></div>
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-r from-teal-300 to-cyan-400 after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30">
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-teal-300 to-cyan-400 -z-20 animate-ping [animation-duration:2s]"></div>
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-teal-300 to-cyan-400 -z-10"></div>
                 <Image
                   src={smileMemoji}
                   alt="smiling emoji"

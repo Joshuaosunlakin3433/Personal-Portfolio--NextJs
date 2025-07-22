@@ -4,7 +4,6 @@ import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
-import grainImage from "@/assets/images/grain.jpg";
 import SectionHeader from "@/components/SectionHeader";
 import {Card} from "@/components/Cards"
 
@@ -70,7 +69,7 @@ export const ProjectsSection = () => {
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
                   <div
-                    className="bg-gradient-to-r from-emerald-300 to-sky-400 bg-clip-text 
+                    className="bg-gradient-to-r from-teal-300 to-cyan-400 bg-clip-text 
                 text-transparent uppercase font-sans font-semibold text-sm tracking-widest
                  inline-flex items-center gap-2"
                   >

@@ -12,7 +12,7 @@ const SectionHeader = ({
       <div className="flex justify-center">
         <p
           className="tracking-widest font-semibold uppercase text-center
-           bg-gradient-to-r from-emerald-300 to-sky-400 bg-clip-text 
+           bg-gradient-to-r from-teal-300 to-cyan-400 bg-clip-text 
            text-transparent"
         >
           {title}

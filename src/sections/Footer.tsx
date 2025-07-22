@@ -6,6 +6,10 @@ const footerLinks = [
     title: "GitHub",
     href: "https://github.com/Joshuaosunlakin3433",
   },
+   {
+    title: "Resume",
+    href: "/OSUNLAKIN-JOSHUA-RESUME.pdf",
+  },
   {
     title: "LinkedIn",
     href: "https://www.linkedin.com/in/joshua-osunlakin-dvm-775088191/",

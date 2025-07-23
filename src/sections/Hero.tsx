@@ -1,3 +1,4 @@
+"use client";
 import memojiImage from "@/assets/images/memoji-computer.png";
 import Image from "next/image";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
@@ -5,6 +6,7 @@ import grainImage from "@/assets/images/grain.jpg";
 import StarIcon from "@/assets/icons/star.svg";
 import { HeroOrbit } from "@/components/HeroOrbit";
 import SparkleIcon from "@/assets/icons/sparkle.svg";
+import { ReactTyped } from "react-typed";
 
 export const HeroSection = () => {
   return (
@@ -12,7 +14,7 @@ export const HeroSection = () => {
       className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip"
       id="Home"
     >
-      <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
+      <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)] pointer-events-none">
         <div
           className="absolute inset-0 -z-30 opacity-5"
           style={{
@@ -133,21 +135,39 @@ export const HeroSection = () => {
             Building Exceptional User Experiences
           </h1>
           <p className="text-center mt-4 text-white/50 md:text-lg">
-            I specialize in transforming designs into functional,
-            high-performing web applications. Let&apos;s discuss your next project
+            I&apos;m a{" "}
+            <span className="inline-block w-[150px] md:w-[170px] text-left whitespace-nowrap">
+              <ReactTyped
+                strings={["Frontend Developer", "Community Manager"]}
+                typeSpeed={100}
+                backSpeed={50}
+                backDelay={2000}
+                loop
+                className="bg-gradient-to-r from-teal-300 to-cyan-400 text-transparent bg-clip-text font-semibold"
+              />
+            </span>{" "}
+            who specializes in transforming designs into functional,
+            high-performing web applications. Let&apos;s discuss your next
+            project.
           </p>
         </div>
         <div className="flex flex-col md:flex-row md:justify-center items-center mt-8 gap-4">
-          <button className="inline-flex items-center gap-2 capitalize border border-white/15 h-12 px-6 rounded-xl">
+          <a
+            className="inline-flex items-center gap-2 capitalize border border-white/15 h-12 px-6 rounded-xl hover:scale-105 transition-all duration-300 ease-in-out"
+            href="#Projects"
+          >
             <span className="font-semibold">Explore my work</span>
             <ArrowDown className="size-4 animate-bounce" />
-          </button>
-          <div className="inline-flex gap-2 items-center border border-white bg-white h-12 px-6 rounded-xl text-gray-900">
+          </a>
+          <a
+            className="inline-flex gap-2 items-center border border-white bg-white h-12 px-6 rounded-xl text-gray-900 hover:scale-105 transition-all duration-300 ease-in-out"
+            href="#Contact"
+          >
             <div className="text-xl animate-pulse">👋 </div>
             <span className=" font-semibold capitalize">
               Let&apos;s connect
             </span>
-          </div>
+          </a>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ import { Fragment } from "react";
 const words = [
   "Performant",
   "Accessible",
-  "secure",
+  "Secure",
   "Interactive",
   "Scalable",
   "User Friendly",
@@ -13,6 +13,13 @@ const words = [
   "Search Optimized",
   "Usable",
   "Reliable",
+  "Empathetic",
+  "Communicative",
+  "Proactive",
+  "Problem Solver",
+  "Patient",
+  "Trustworthy",
+  "Adaptable",
 ];
 
 export const TapeSection = () => {
@@ -22,7 +29,7 @@ export const TapeSection = () => {
         <div className="flex [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
           <div className="flex gap-4  pr-4 flex-none py-3 -translate-x-0 animate-move-left [animation-duration:10s]">
             {[...new Array(2)].fill(0).map((_, index) => (
-              <Fragment key= {index}>
+              <Fragment key={index}>
                 {words.map((word) => (
                   <div key={word} className="inline-flex gap-4">
                     <span className="text-gray-900 uppercase font-extrabold text-sm">

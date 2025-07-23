@@ -134,8 +134,7 @@ export const HeroSection = () => {
           </h1>
           <p className="text-center mt-4 text-white/50 md:text-lg">
             I specialize in transforming designs into functional,
-            high-perforning web applications. Let&apos;s discuss your discuss
-            your next project
+            high-performing web applications. Let&apos;s discuss your next project
           </p>
         </div>
         <div className="flex flex-col md:flex-row md:justify-center items-center mt-8 gap-4">

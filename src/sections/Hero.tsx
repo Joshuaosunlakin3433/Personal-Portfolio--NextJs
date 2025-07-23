@@ -136,12 +136,12 @@ export const HeroSection = () => {
           </h1>
           <p className="text-center mt-4 text-white/50 md:text-lg">
             I&apos;m a{" "}
-            <span className="inline-block w-[156px] md:w-[176px] text-left whitespace-nowrap">
+            <span className="inline-block w-[158px] md:w-[178px] text-left whitespace-nowrap">
               <ReactTyped
                 strings={["Frontend Developer", "Community Manager"]}
                 typeSpeed={100}
                 backSpeed={50}
-                backDelay={2000}
+                backDelay={1500}
                 loop
                 className="bg-gradient-to-r from-teal-300 to-cyan-400 text-transparent bg-clip-text font-semibold"
               />

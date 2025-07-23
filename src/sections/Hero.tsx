@@ -136,7 +136,7 @@ export const HeroSection = () => {
           </h1>
           <p className="text-center mt-4 text-white/50 md:text-lg">
             I&apos;m a{" "}
-            <span className="inline-block w-[166px] md:w-[186px] text-left whitespace-nowrap">
+            <span className="inline-block w-[168px] md:w-[188px] text-left whitespace-nowrap">
               <ReactTyped
                 strings={["Frontend Developer", "Community Manager"]}
                 typeSpeed={100}

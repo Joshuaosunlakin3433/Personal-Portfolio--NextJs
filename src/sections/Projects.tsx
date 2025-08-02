@@ -1,6 +1,7 @@
 import ipAddressProject from "@/assets/images/Ip Address Project.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import weatherAppProject from "@/assets/images/weatherAppProject.png";
+import thinkBoard from "@/assets/images/ThinkBoard - Google Chrome.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -31,6 +32,18 @@ const portfolioProjects = [
     ],
     link: "https://weather-app-nu-three-34.vercel.app/",
     image: weatherAppProject,
+  },
+  {
+    company: "ThinkBoard",
+    year: "2025",
+    title: "ThinkBoard App",
+    results: [
+      { title: "Enhanced note organization by 45%"},
+      { title: "Reduced sync time by 50%" },
+      { title: "Increased user retention by 35%" },
+    ],
+    link: "https://my-thinkboard-app.onrender.com/",
+    image: thinkBoard,
   },
   {
     company: "IP Address Tracker",

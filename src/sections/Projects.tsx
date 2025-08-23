@@ -38,9 +38,10 @@ const portfolioProjects = [
     year: "2025",
     title: "ThinkBoard App",
     results: [
-      { title: "Enhanced note organization by 45%"},
-      { title: "Reduced sync time by 50%" },
-      { title: "Increased user retention by 35%" },
+      { title: "Secure user authentication with Firebase" },
+      { title: "Create & manage personal notes effortlessly" },
+      { title: "Fully responsive design for all devices" },
+      { title: "Real-time data synchronization" },
     ],
     link: "https://my-thinkboard-app.onrender.com/",
     image: thinkBoard,

@@ -2,6 +2,7 @@ import ipAddressProject from "@/assets/images/Ip Address Project.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import weatherAppProject from "@/assets/images/weatherAppProject.png";
 import thinkBoard from "@/assets/images/ThinkBoard - Google Chrome.png";
+import experienceDiaryScreenshot from "@/assets/images/experience-diary.png"
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -9,6 +10,20 @@ import SectionHeader from "@/components/SectionHeader";
 import { Card } from "@/components/Cards";
 
 const portfolioProjects = [
+ {
+  company: "Personal Project",
+  year: "2025",
+  title: "The Experience Diary - AI Blog Platform",
+  results: [
+    { title: "AI-powered blog generation with admin dashboard" },
+    { title: "Demo Login: admin@example.com / admin123" },
+    { title: "Seamless image uploads via ImageKit & Multer" },
+    { title: "Custom dark/light mode with smooth transitions" },
+    { title: "Responsive design with modern UI/UX" },
+  ],
+  link: "https://the-experience-diary-app.vercel.app/",
+  image: experienceDiaryScreenshot,
+},
   {
     company: "Innovative Co",
     year: "2025",

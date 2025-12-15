@@ -3,7 +3,7 @@ import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import weatherAppProject from "@/assets/images/weatherAppProject.png";
 import thinkBoard from "@/assets/images/ThinkBoard - Google Chrome.png";
 import automatedMarketMaker from "@/assets/images/AMM.png";
-import highStackers from "@/assets/images/highstackers.png";
+import highStackers from "@/assets/images/HighStackers.png";
 import experienceDiaryScreenshot from "@/assets/images/experience-diary.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";

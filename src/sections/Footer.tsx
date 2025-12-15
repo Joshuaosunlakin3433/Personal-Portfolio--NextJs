@@ -4,7 +4,7 @@ import Link from "next/link";
 const footerLinks = [
   {
     title: "Resume",
-    href: "/JOSHUA-OSUNLAKIN-RESUME.pdf",
+    href: "/JOSHUA OSUNLAKIN BLOCKCHAIN- RESUME.pdf",
   },
   {
     title: "GitHub",

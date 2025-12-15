@@ -2,7 +2,9 @@ import ipAddressProject from "@/assets/images/Ip Address Project.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import weatherAppProject from "@/assets/images/weatherAppProject.png";
 import thinkBoard from "@/assets/images/ThinkBoard - Google Chrome.png";
-import experienceDiaryScreenshot from "@/assets/images/experience-diary.png"
+import automatedMarketMaker from "@/assets/images/AMM.png";
+import highStackers from "@/assets/images/highstackers.png";
+import experienceDiaryScreenshot from "@/assets/images/experience-diary.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -10,20 +12,32 @@ import SectionHeader from "@/components/SectionHeader";
 import { Card } from "@/components/Cards";
 
 const portfolioProjects = [
- {
-  company: "Personal Project",
-  year: "2025",
-  title: "The Experience Diary - AI Blog Platform",
-  results: [
-    { title: "AI-powered blog generation with admin dashboard" },
-    { title: "Demo Login: admin@example.com / admin123" },
-    { title: "Seamless image uploads via ImageKit & Multer" },
-    { title: "Custom dark/light mode with smooth transitions" },
-    { title: "Responsive design with modern UI/UX" },
-  ],
-  link: "https://the-experience-diary-app.vercel.app/",
-  image: experienceDiaryScreenshot,
-},
+  {
+    company: "Stacks AI Guild",
+    year: "2025",
+    title: "HighStackers - An on-chain PvP Crash Game",
+    results: [
+      { title: "MVP: Decentralized PvP crash game on Stacks blockchain" },
+      { title: "Immersive 3D graphics with Three.js frontend" },
+      { title: "Real-time multiplayer synchronization & fair mechanics" },
+    ],
+    link: "high-stackers-asm5.vercel.app",
+    image: highStackers,
+  },
+
+  {
+    company: "Personal Project",
+    year: "2025",
+    title: "The Experience Diary - AI Blog Platform",
+    results: [
+      { title: "AI-powered blog generation with admin dashboard" },
+      { title: "Seamless image uploads via ImageKit & Multer" },
+      { title: "Custom dark/light mode with smooth transitions" },
+    ],
+    link: "https://the-experience-diary-app.vercel.app/",
+    image: experienceDiaryScreenshot,
+  },
+
   {
     company: "Innovative Co",
     year: "2025",
@@ -35,6 +49,18 @@ const portfolioProjects = [
     ],
     link: "https://eco-ochre-nu.vercel.app/",
     image: lightSaasLandingPage,
+  },
+  {
+    company: "Stack Ascents",
+    year: "2025",
+    title: "Automated Market Maker",
+    results: [
+      { title: "Trustless token swaps & liquidity provision on Stacks" },
+      { title: "Clarity smart contracts with constant product formula" },
+      { title: "Slippage protection & real-time pool statistics" },
+    ],
+    link: "https://automated-market-maker.vercel.app/",
+    image: automatedMarketMaker,
   },
   {
     company: "Weather App",
@@ -56,7 +82,6 @@ const portfolioProjects = [
       { title: "Secure user authentication with Firebase" },
       { title: "Create & manage personal notes effortlessly" },
       { title: "Fully responsive design for all devices" },
-      { title: "Real-time data synchronization" },
     ],
     link: "https://my-thinkboard-app.onrender.com/",
     image: thinkBoard,

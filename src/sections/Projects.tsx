@@ -5,6 +5,8 @@ import thinkBoard from "@/assets/images/ThinkBoard - Google Chrome.png";
 import automatedMarketMaker from "@/assets/images/AMM.png";
 import highStackers from "@/assets/images/HighStackers.png";
 import experienceDiaryScreenshot from "@/assets/images/experience-diary.png";
+import wagmiClinic from "@/assets/images/WAGMI Clinic hero page.png";
+import subwiseProtocol from "@/assets/images/subwise protocol.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -12,6 +14,50 @@ import SectionHeader from "@/components/SectionHeader";
 import { Card } from "@/components/Cards";
 
 const portfolioProjects = [
+  {
+    company: "BNB Chain Hackathon",
+    year: "2026",
+    title: "Wagmi Clinic — AI Emergency Room for Degen Wallets",
+    results: [
+      {
+        title:
+          "AI-powered wallet diagnosis with savage roasts & real recovery strategies",
+      },
+      {
+        title:
+          "Soulbound Token minting — permanent on-chain medical records (ERC-721)",
+      },
+      {
+        title:
+          "Built on BNB Chain with Next.js 16, Wagmi v2 & Clinical Brutalism design",
+      },
+    ],
+    link: "https://wagmi-clinic.vercel.app/",
+    image: wagmiClinic,
+  },
+
+  {
+    company: "Cronos x402 Hackathon",
+    year: "2026",
+    title: "SubWise Protocol — AI Subscription Management on Cronos",
+    results: [
+      {
+        title:
+          "Custom x402 facilitator contract for autonomous recurring pull-payments",
+      },
+      {
+        title:
+          "Claude-powered AI agent with market crash & inactivity protection",
+      },
+      {
+        title:
+          "Real-time dashboard with RainbowKit wallet integration & payment receipts",
+      },
+    ],
+    link: "https://subwise-protocol.vercel.app",
+    image: subwiseProtocol,
+  },
+
   {
     company: "Stacks AI Guild",
     year: "2025",

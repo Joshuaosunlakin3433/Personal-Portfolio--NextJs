@@ -138,7 +138,12 @@ export const HeroSection = () => {
             I&apos;m a{" "}
             <span className="inline-block w-[168px] md:w-[188px] text-left whitespace-nowrap">
               <ReactTyped
-                strings={["Frontend Developer", "Community Manager"]}
+                strings={[
+                  "Blockchain Engineer",
+                  "Clarity Developer",
+                  "Fullstack Developer",
+                  "Community Manager",
+                ]}
                 typeSpeed={100}
                 backSpeed={50}
                 backDelay={1500}
@@ -146,9 +151,8 @@ export const HeroSection = () => {
                 className="bg-gradient-to-r from-teal-300 to-cyan-400 text-transparent bg-clip-text font-semibold"
               />
             </span>{" "}
-            who specializes in transforming designs into functional,
-            high-performing web applications. Let&apos;s discuss your next
-            project.
+            who builds smart contracts and fullstack dApps on Stacks (Bitcoin
+            L2) and beyond. Let&apos;s discuss your next project.
           </p>
         </div>
         <div className="flex flex-col md:flex-row md:justify-center items-center mt-8 gap-4">

@@ -140,8 +140,8 @@ export const HeroSection = () => {
               <ReactTyped
                 strings={[
                   "Blockchain Engineer",
-                  "Clarity Developer",
                   "Fullstack Developer",
+                  "Frontend Developer",
                   "Community Manager",
                 ]}
                 typeSpeed={100}
@@ -151,8 +151,8 @@ export const HeroSection = () => {
                 className="bg-gradient-to-r from-teal-300 to-cyan-400 text-transparent bg-clip-text font-semibold"
               />
             </span>{" "}
-            who builds smart contracts and fullstack dApps on Stacks (Bitcoin
-            L2) and beyond. Let&apos;s discuss your next project.
+            building blockchain products, web2 frontend and fullstack apps, and
+            leading communities as a moderator and manager.
           </p>
         </div>
         <div className="flex flex-col md:flex-row md:justify-center items-center mt-8 gap-4">

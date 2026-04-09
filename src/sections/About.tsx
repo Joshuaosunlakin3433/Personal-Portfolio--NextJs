@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import SectionHeader from "@/components/SectionHeader";
 import { Card } from "@/components/Cards";
 import bookImage from "@/assets/images/book-cover.png";
@@ -20,7 +20,7 @@ import { CardHeader } from "@/components/CardHeader";
 import ToolBoxItems from "@/components/ToolBoxItems";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 import { useRef } from "react";
 
 const toolboxItems = [
@@ -137,7 +137,7 @@ export const AboutSection = () => {
         <SectionHeader
           title="A Glimpse Into my world"
           eyebrow="About me"
-          description="Learn More About Who I Am, what I do and what inspires me "
+          description="Learn more about who I am, what I build, and what inspires me."
         />
         <div className="mt-20 flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
@@ -188,7 +188,8 @@ export const AboutSection = () => {
                       left: hobby.left,
                       top: hobby.top,
                     }}
-                    drag dragConstraints = {constraintRef}
+                    drag
+                    dragConstraints={constraintRef}
                   >
                     <span className="font-medium text-gray-950">
                       {hobby.title}
